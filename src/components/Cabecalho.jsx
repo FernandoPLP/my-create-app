@@ -2,8 +2,10 @@
 
 export default function Cabecalho() {
   return (
-    <header>
-        <h1>Git + React</h1>
-    </header>
+      <>
+        <header>
+          <h1>Git + React</h1>
+        </header>
+      </>
   )
 }
