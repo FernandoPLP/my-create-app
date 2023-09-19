@@ -1,52 +1,40 @@
 import { useEffect, useState } from "react";
+import { ListaProdutosExterna } from "../components/ListaProdutosExterna";
 
 export default function Produtos() {
 
-    
-
     document.title = "Lista de Produtos";
-    // ------------------------------------------------------------------------------------------------//
 
-
-    //Estrutura de declaração do useState.
-    const[counter,setCounter] = useState(0);
+    const [listaProdutosLocal, setListaProdutosLocal] = useState([{}]);
     
-    //Estrutura de declaração do useEffect que sempre executa.
+    //Estrutura que recebe a lista de produtos externa e repassa para uma lista local.
     useEffect(()=>{
-      console.log("Este useEffect renderiza sempre que ocorrer uma atualização neste componente ou em um elemento filho.");
-    });
-
-    // ------------------------------------------------------------------------------------------------//
-
-    //Estrutura de declaração do useEffect que executa uma unica vez.
-    useEffect(()=>{
-        console.log("Este useEffect renderiza apenas uma vez, no carregamento do componente");
-      },[]);
-
-    //------------------------------------------------------------------------------------------------//
-
-
-    //Estrutura de declaração do useState.
-    const[counter2,setCounter2] = useState(0);
-
-    //Estrutura de declaração do useEffect que executa sempre baseado em um determinado elemento. Este elemento pode ser: um componente, um objeto e ou uma variável. Que deve ser monitorados no array de dependências. [ ]
-    //Uma constante,
-        useEffect(()=>{
-            console.log("Este useEffect renderiza apenas quando o objeto monitorado sofre atualização.");
-          },[counter2]);
-  
-
-    // const handleUseState = ()=>{
-    //     setCounter(1);
-    //   }
+      setListaProdutosLocal(ListaProdutosExterna);
+    },[]);
 
   return (
     <div>
       <h1>Lista de Produtos</h1>
-      <div>
-        <button onClick={()=> setCounter(counter + 1)}>COUNTER - {counter}</button>
-        <button onClick={()=> setCounter2(counter2 + 1)}>COUNTER2 - {counter2}</button>
-      </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>NOME</th>
+                        <th>DESCRIÇÃO</th>
+                        <th>PREÇO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <th></th>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colSpan={4}>PRODUTOS INFORMATICOS - QTD = </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
     </div>
   )
 }
