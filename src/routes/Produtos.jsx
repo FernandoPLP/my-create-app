@@ -14,6 +14,14 @@ export default function Produtos() {
       setListaProdutosLocal(ListaProdutosExterna);
     },[]);
 
+
+    const removerItem = (id) => {
+        const novaLista = listaProdutosLocal.filter((item) => item.id !== id);
+        setListaProdutosLocal(novaLista);
+      };
+
+
+      
   return (
     <div>
       <h1>Lista de Produtos</h1>
@@ -38,6 +46,7 @@ export default function Produtos() {
                             <td>{item.desc}</td>
                             <td>{item.preco}</td>
                             <td><Link to={`/editar/produtos/${item.id}`}>Editar</Link></td>
+                            <td><button onClick={() => removerItem(item.id)}>Remover</button></td>
                         </tr>
                     ))
                    }
