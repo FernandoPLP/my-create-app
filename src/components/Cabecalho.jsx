@@ -1,14 +1,16 @@
 //import React from 'react'
 import { Link } from "react-router-dom";
+import styles from "./Cabecalho.module.css";
 
 export default function Cabecalho() {
   return (
       <>
-        <header>
+        <header className={styles.cabecalho}>
           <h1>Git + React</h1>
+          <img src="/img/produtos.png" alt="icone produtos"/>
           <nav>
             <ul>
-              <li><Link to="/">HOME</Link> </li>
+              <li><Link to="/">HOME</Link></li>
               <li><Link to="/produtos">PRODUTOS</Link> </li>
               <li><Link to="/editar/produtos/:id">EDITAR PRODUTOS</Link> </li>
               <li><Link to="/editar/produtos/1">Produto - 1</Link> </li>
