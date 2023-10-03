@@ -6,14 +6,14 @@ import styles from "./App.module.css"
 
 export default function App() {
   //link de redes sociais
-  let listaLinks = [<li>Github</li>, <li>X</li>, <li>Reddit</li>];
+ 
 
   return (
     <>
-      <div className="Container">
+      <div className={styles.container}>
         <Cabecalho />
         <Outlet />
-        <Footer listaProps={listaLinks} />
+        <Footer />
       </div>
     </>
   );

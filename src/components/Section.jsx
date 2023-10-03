@@ -1,11 +1,11 @@
-export default function Section(props) {
+export default function Section() {
     return (
 
         <>
             <section>
                 <p><a href='/'>Home Page</a></p>
                 <button onClick={()=> alert('Hello World')}>Click me</button>
-                <img src={props.reactLogoProps} alt={props.reactLogoAltProps} />
+                
             </section>
         </>
     )
