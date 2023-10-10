@@ -1,5 +1,5 @@
 //import React from 'react'
-import Cabecalho from "./components/cabecalho";
+import Cabecalho from "./components/cabecalho/Cabecalho";
 import Footer from "./components/footer";
 import { Outlet } from "react-router-dom";
 import styles from "./App.module.css"
