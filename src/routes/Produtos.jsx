@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Produtos.module.css";
 import {AiFillEdit as Editar} from "react-icons/ai"
 import {MdDeleteForever as Del} from "react-icons/md"
+import ModalAction from "../components/modalAction/modalAction";
 
 export default function Produtos() {
 
@@ -19,9 +20,14 @@ export default function Produtos() {
       
     },[]);
 
+    const [open, setOpen] = useState(false);
+
   return (
     <div>
       <h1>Lista de Produtos</h1>
+      <ModalAction open={open} setClose={setOpen}/>
+
+      <button onClick={()=> setOpen(true)}>OPEN-MODAL</button>
 
           <div>
             <table className={styles.tblEstilo}>
