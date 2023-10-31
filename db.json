@@ -1,6 +1,5 @@
 {
-  "produtos": [
-    {
+  "produtos": [{
       "id": 1,
       "nome": "Teclado",
       "desc": "Teclado 102 Teclas Mecânico.",
@@ -30,5 +29,507 @@
       "desc": "Head Set Gamer 8D.",
       "preco": 800
     }
-  ]
+  ],
+
+  "usuarios": [{
+    "id": 1,
+    "email": "guyandrade@ibm.com",
+    "name": "Guy Andrade",
+    "senha": "elit"
+  }, {
+    "id": 2,
+    "email": "nitadefatima@protonmail.net",
+    "name": "Nita de Fatima",
+    "senha": "eu"
+  }, {
+    "id": 3,
+    "email": "hashimleite@outlook.edu",
+    "name": "Hashim Leite",
+    "senha": "mauris"
+  }, {
+    "id": 4,
+    "email": "allistairsales@yahoo.edu",
+    "name": "Allistair Sales",
+    "senha": "lacus."
+  }, {
+    "id": 5,
+    "email": "vielkasiqueira7243@fiap.net",
+    "name": "Vielka Siqueira",
+    "senha": "nunc"
+  }, {
+    "id": 6,
+    "email": "porteraguiar@aol.net",
+    "name": "Porter Aguiar",
+    "senha": "et,"
+  }, {
+    "id": 7,
+    "email": "candicefranco@ibm.org",
+    "name": "Candice Franco",
+    "senha": "ut"
+  }, {
+    "id": 8,
+    "email": "xanthusandrade476@yahoo.ca",
+    "name": "Xanthus Andrade",
+    "senha": "ante"
+  }, {
+    "id": 9,
+    "email": "marthatrindade@icloud.edu",
+    "name": "Martha Trindade",
+    "senha": "neque."
+  }, {
+    "id": 10,
+    "email": "gayferraz8098@icloud.edu",
+    "name": "Gay Ferraz",
+    "senha": "interdum."
+  }, {
+    "id": 11,
+    "email": "johndarocha@protonmail.edu",
+    "name": "John da Rocha",
+    "senha": "arcu"
+  }, {
+    "id": 12,
+    "email": "ingabueno@yahoo.com",
+    "name": "Inga Bueno",
+    "senha": "mi"
+  }, {
+    "id": 13,
+    "email": "nobledepaula@aol.ca",
+    "name": "Noble de Paula",
+    "senha": "imperdiet,"
+  }, {
+    "id": 14,
+    "email": "gemmafagundes@fiap.org",
+    "name": "Gemma Fagundes",
+    "senha": "eu"
+  }, {
+    "id": 15,
+    "email": "gwendolynteles4012@outlook.net",
+    "name": "Gwendolyn Teles",
+    "senha": "erat"
+  }, {
+    "id": 16,
+    "email": "jeanettefaria@aol.edu",
+    "name": "Jeanette Faria",
+    "senha": "Duis"
+  }, {
+    "id": 17,
+    "email": "yokodesantana703@protonmail.edu",
+    "name": "Yoko de Santana",
+    "senha": "nec"
+  }, {
+    "id": 18,
+    "email": "yettaleite1568@hotmail.ca",
+    "name": "Yetta Leite",
+    "senha": "faucibus."
+  }, {
+    "id": 19,
+    "email": "haleyvieira1429@yahoo.net",
+    "name": "Haley Vieira",
+    "senha": "Nunc"
+  }, {
+    "id": 20,
+    "email": "sarahduarte4740@outlook.edu",
+    "name": "Sarah Duarte",
+    "senha": "Quisque"
+  }, {
+    "id": 21,
+    "email": "catherinecoutinho@icloud.com",
+    "name": "Catherine Coutinho",
+    "senha": "Integer"
+  }, {
+    "id": 22,
+    "email": "timothymagalhaes5184@outlook.net",
+    "name": "Timothy Magalhaes",
+    "senha": "gravida."
+  }, {
+    "id": 23,
+    "email": "blossommorais@yahoo.net",
+    "name": "Blossom Morais",
+    "senha": "egestas"
+  }, {
+    "id": 24,
+    "email": "octaviusfeitosa@protonmail.couk",
+    "name": "Octavius Feitosa",
+    "senha": "elit,"
+  }, {
+    "id": 25,
+    "email": "amircardoso@protonmail.edu",
+    "name": "Amir Cardoso",
+    "senha": "Quisque"
+  }, {
+    "id": 26,
+    "email": "velmaazevedo@yahoo.org",
+    "name": "Velma Azevedo",
+    "senha": "aliquet"
+  }, {
+    "id": 27,
+    "email": "mikaylahenrique@outlook.ca",
+    "name": "Mikayla Henrique",
+    "senha": "lacinia"
+  }, {
+    "id": 28,
+    "email": "leandracavalcante6382@outlook.ca",
+    "name": "Leandra Cavalcante",
+    "senha": "sem"
+  }, {
+    "id": 29,
+    "email": "porterteles@aol.ca",
+    "name": "Porter Teles",
+    "senha": "volutpat."
+  }, {
+    "id": 30,
+    "email": "monaramos9085@google.net",
+    "name": "Mona Ramos",
+    "senha": "pede."
+  }, {
+    "id": 31,
+    "email": "cainfarias@yahoo.ca",
+    "name": "Cain Farias",
+    "senha": "purus."
+  }, {
+    "id": 32,
+    "email": "kaitlincavalcante@outlook.edu",
+    "name": "Kaitlin Cavalcante",
+    "senha": "venenatis"
+  }, {
+    "id": 33,
+    "email": "evelynsantos916@aol.com",
+    "name": "Evelyn Santos",
+    "senha": "et"
+  }, {
+    "id": 34,
+    "email": "imogeneviana@fiap.ca",
+    "name": "Imogene Viana",
+    "senha": "sapien,"
+  }, {
+    "id": 35,
+    "email": "burkefagundes@icloud.couk",
+    "name": "Burke Fagundes",
+    "senha": "eget"
+  }, {
+    "id": 36,
+    "email": "rebeccadasneves7362@google.org",
+    "name": "Rebecca Das Neves",
+    "senha": "volutpat"
+  }, {
+    "id": 37,
+    "email": "evangelinefigueiredo1402@yahoo.org",
+    "name": "Evangeline Figueiredo",
+    "senha": "Lorem"
+  }, {
+    "id": 38,
+    "email": "howardfonseca8498@hotmail.com",
+    "name": "Howard Fonseca",
+    "senha": "eu"
+  }, {
+    "id": 39,
+    "email": "luneaguedes1778@protonmail.com",
+    "name": "Lunea Guedes",
+    "senha": "pharetra"
+  }, {
+    "id": 40,
+    "email": "codyribeiro@outlook.couk",
+    "name": "Cody Ribeiro",
+    "senha": "vitae"
+  }, {
+    "id": 41,
+    "email": "emmadacruz@ibm.ca",
+    "name": "Emma da Cruz",
+    "senha": "libero"
+  }, {
+    "id": 42,
+    "email": "winterferreira1877@outlook.org",
+    "name": "Winter Ferreira",
+    "senha": "fringilla."
+  }, {
+    "id": 43,
+    "email": "ivansilva6104@outlook.ca",
+    "name": "Ivan Silva",
+    "senha": "sit"
+  }, {
+    "id": 44,
+    "email": "kylequeiroz7565@hotmail.ca",
+    "name": "Kyle Queiroz",
+    "senha": "sit"
+  }, {
+    "id": 45,
+    "email": "bellebarros@hotmail.edu",
+    "name": "Belle Barros",
+    "senha": "elit."
+  }, {
+    "id": 46,
+    "email": "marsdensantos4859@icloud.ca",
+    "name": "Marsden Santos",
+    "senha": "mauris"
+  }, {
+    "id": 47,
+    "email": "rooneysousa8160@yahoo.edu",
+    "name": "Rooney Sousa",
+    "senha": "Mauris"
+  }, {
+    "id": 48,
+    "email": "summeralmeida@hotmail.com",
+    "name": "Summer Almeida",
+    "senha": "Mauris"
+  }, {
+    "id": 49,
+    "email": "nashaparecido@google.edu",
+    "name": "Nash Aparecido",
+    "senha": "feugiat."
+  }, {
+    "id": 50,
+    "email": "ivanafreitas@outlook.couk",
+    "name": "Ivana Freitas",
+    "senha": "interdum"
+  }, {
+    "id": 51,
+    "email": "brodyfernandes7271@protonmail.net",
+    "name": "Brody Fernandes",
+    "senha": "sed"
+  }, {
+    "id": 52,
+    "email": "remediosbraz@yahoo.org",
+    "name": "Remedios Braz",
+    "senha": "metus."
+  }, {
+    "id": 53,
+    "email": "abradesousa702@google.com",
+    "name": "Abra de Sousa",
+    "senha": "eros."
+  }, {
+    "id": 54,
+    "email": "micahmarinho6791@aol.org",
+    "name": "Micah Marinho",
+    "senha": "mauris"
+  }, {
+    "id": 55,
+    "email": "leroycunha@icloud.org",
+    "name": "Leroy Cunha",
+    "senha": "mus."
+  }, {
+    "id": 56,
+    "email": "owenbarbosa@yahoo.org",
+    "name": "Owen Barbosa",
+    "senha": "at"
+  }, {
+    "id": 57,
+    "email": "ionaferreira@aol.couk",
+    "name": "Iona Ferreira",
+    "senha": "feugiat"
+  }, {
+    "id": 58,
+    "email": "owendejesus9535@fiap.edu",
+    "name": "Owen de Jesus",
+    "senha": "lectus"
+  }, {
+    "id": 59,
+    "email": "kenyondutra@icloud.couk",
+    "name": "Kenyon Dutra",
+    "senha": "nascetur"
+  }, {
+    "id": 60,
+    "email": "aphroditedeandrade@yahoo.ca",
+    "name": "Aphrodite de Andrade",
+    "senha": "amet"
+  }, {
+    "id": 61,
+    "email": "eugeniadossantos@icloud.ca",
+    "name": "Eugenia dos Santos",
+    "senha": "dui,"
+  }, {
+    "id": 62,
+    "email": "troysales8741@hotmail.couk",
+    "name": "Troy Sales",
+    "senha": "nec"
+  }, {
+    "id": 63,
+    "email": "alvindosreis1412@outlook.edu",
+    "name": "Alvin dos Reis",
+    "senha": "tincidunt"
+  }, {
+    "id": 64,
+    "email": "dariusgonalves8247@aol.ca",
+    "name": "Darius Gonçalves",
+    "senha": "posuere"
+  }, {
+    "id": 65,
+    "email": "calliecabral@aol.com",
+    "name": "Callie Cabral",
+    "senha": "fringilla"
+  }, {
+    "id": 66,
+    "email": "nyssamacedo@aol.org",
+    "name": "Nyssa Macedo",
+    "senha": "vel"
+  }, {
+    "id": 67,
+    "email": "rafaelcosta@google.org",
+    "name": "Rafael Costa",
+    "senha": "Nullam"
+  }, {
+    "id": 68,
+    "email": "justinefreire@aol.net",
+    "name": "Justine Freire",
+    "senha": "Donec"
+  }, {
+    "id": 69,
+    "email": "emmafirmino3221@google.ca",
+    "name": "Emma Firmino",
+    "senha": "ipsum"
+  }, {
+    "id": 70,
+    "email": "ardenmonteiro@fiap.ca",
+    "name": "Arden Monteiro",
+    "senha": "pede"
+  }, {
+    "id": 71,
+    "email": "ferdinandalmeida701@hotmail.org",
+    "name": "Ferdinand Almeida",
+    "senha": "faucibus"
+  }, {
+    "id": 72,
+    "email": "cassidytavares@google.couk",
+    "name": "Cassidy Tavares",
+    "senha": "eu"
+  }, {
+    "id": 73,
+    "email": "gwendolyndasilva2864@icloud.net",
+    "name": "Gwendolyn da Silva",
+    "senha": "eu,"
+  }, {
+    "id": 74,
+    "email": "quinvaz@fiap.edu",
+    "name": "Quin Vaz",
+    "senha": "nec"
+  }, {
+    "id": 75,
+    "email": "chavavasconcelos7041@hotmail.ca",
+    "name": "Chava Vasconcelos",
+    "senha": "lacus"
+  }, {
+    "id": 76,
+    "email": "miadeazevedo6108@hotmail.edu",
+    "name": "Mia de Azevedo",
+    "senha": "lectus"
+  }, {
+    "id": 77,
+    "email": "karynpires@ibm.net",
+    "name": "Karyn Pires",
+    "senha": "augue"
+  }, {
+    "id": 78,
+    "email": "isabellebrandao8231@icloud.com",
+    "name": "Isabelle Brandao",
+    "senha": "dapibus"
+  }, {
+    "id": 79,
+    "email": "jaquelynborges@yahoo.com",
+    "name": "Jaquelyn Borges",
+    "senha": "iaculis,"
+  }, {
+    "id": 80,
+    "email": "rileydealmeida9093@ibm.edu",
+    "name": "Riley de Almeida",
+    "senha": "mi"
+  }, {
+    "id": 81,
+    "email": "coltonsantiago@aol.ca",
+    "name": "Colton Santiago",
+    "senha": "dapibus"
+  }, {
+    "id": 82,
+    "email": "ferdinanddemoura5783@ibm.edu",
+    "name": "Ferdinand de Moura",
+    "senha": "blandit"
+  }, {
+    "id": 83,
+    "email": "asheraraujo3912@google.couk",
+    "name": "Asher Araujo",
+    "senha": "Pellentesque"
+  }, {
+    "id": 84,
+    "email": "oprahalves@hotmail.edu",
+    "name": "Oprah Alves",
+    "senha": "vitae"
+  }, {
+    "id": 85,
+    "email": "belleteodoro@hotmail.edu",
+    "name": "Belle Teodoro",
+    "senha": "sed"
+  }, {
+    "id": 86,
+    "email": "cruzpires@outlook.couk",
+    "name": "Cruz Pires",
+    "senha": "ante."
+  }, {
+    "id": 87,
+    "email": "tashyafernandes5923@aol.org",
+    "name": "TaShya Fernandes",
+    "senha": "ligula."
+  }, {
+    "id": 88,
+    "email": "isabellafeitosa7183@aol.com",
+    "name": "Isabella Feitosa",
+    "senha": "Duis"
+  }, {
+    "id": 89,
+    "email": "addisonbraga5739@aol.com",
+    "name": "Addison Braga",
+    "senha": "gravida."
+  }, {
+    "id": 90,
+    "email": "galenasantana6440@fiap.ca",
+    "name": "Galena Santana",
+    "senha": "Duis"
+  }, {
+    "id": 91,
+    "email": "calistaaguiar@outlook.net",
+    "name": "Calista Aguiar",
+    "senha": "Duis"
+  }, {
+    "id": 92,
+    "email": "reeddossantos@aol.com",
+    "name": "Reed dos Santos",
+    "senha": "leo"
+  }, {
+    "id": 93,
+    "email": "nathandelourdes4765@yahoo.com",
+    "name": "Nathan de Lourdes",
+    "senha": "sodales"
+  }, {
+    "id": 94,
+    "email": "jeanettealves5286@protonmail.edu",
+    "name": "Jeanette Alves",
+    "senha": "vestibulum."
+  }, {
+    "id": 95,
+    "email": "charitycampos8219@aol.ca",
+    "name": "Charity Campos",
+    "senha": "justo"
+  }, {
+    "id": 96,
+    "email": "graidentorres8126@outlook.net",
+    "name": "Graiden Torres",
+    "senha": "ante."
+  }, {
+    "id": 97,
+    "email": "caroldasgracas@icloud.ca",
+    "name": "Carol Das Gracas",
+    "senha": "nec,"
+  }, {
+    "id": 98,
+    "email": "nissimborges7384@protonmail.net",
+    "name": "Nissim Borges",
+    "senha": "ipsum"
+  }, {
+    "id": 99,
+    "email": "scottdacunha@fiap.edu",
+    "name": "Scott da Cunha",
+    "senha": "in"
+  }, {
+    "id": 100,
+    "email": "velmadasilva1401@yahoo.couk",
+    "name": "Velma da Silva",
+    "senha": "turpis"
+  }]
 }
